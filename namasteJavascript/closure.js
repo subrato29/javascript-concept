@@ -19,8 +19,8 @@ function outer() {
     return inner;
 }
 
-let x = outer();
-console.log (x);
+let y = outer();
+console.log (y);
 
 //output:
 // ƒ inner() {
