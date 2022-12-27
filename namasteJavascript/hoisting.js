@@ -11,7 +11,7 @@ var func1 = () => {
 }
 
 var func2 = function() {
-    console.log('func2 will be declared as a variable in memory instead of function as it is an arrow function!!');
+    console.log('func2 will be declared as a variable in memory instead of function!!');
 }
 
 func1(); // print as usual
