@@ -9,7 +9,7 @@ function x() { //x() is reference to the lexical parent of gobal EC, which is pa
     var b = 20;
     c(); //c() is reference to the lexical parent of x(), which is parent of c();
     function c() {
-        console.log (b);
+        console.log (b); //20
     }
 }
 
