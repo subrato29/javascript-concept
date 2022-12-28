@@ -1,14 +1,16 @@
-// Higher-order function: A function which takes another function as an argument or returns a functions from it, called higher-order function.
-// Functional Programming is powered by Higher-Order Functions in JavaScript.
+/**
+ * Higher-order function: A function which takes another function as an argument or returns a functions from it, 
+ * called higher-order function.
+ * Functional Programming is powered by Higher-Order Functions in JavaScript.
+ */
 
-// x is called callback function
 function x() {
-    console.log("x");
+    console.log('x');
 }
 
 // y is called higher order function
 function y(x) {
-    x();
+    x(); //x is called callback function
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -35,7 +37,7 @@ const calculate = function (array, logic) {
     return output;
 }
 
-console.log(radius.map(area)); // calculate() works almost similar like map()
+console.log(radius.map(area)); // calculate() works almost similar like map(). map() is a higher order function
 
 console.log(calculate(radius, area));
 console.log(calculate(radius, circumference));
