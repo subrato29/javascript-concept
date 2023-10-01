@@ -1,4 +1,6 @@
 //callback function: passing function as method argument
+//callback is a way to write asynchronous code
+
 //Example: 1
 function phone(name, callback) {
     console.log(name)
