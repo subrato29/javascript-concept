@@ -8,5 +8,5 @@ flag = num.some((el) => el < 3);
 console.log(flag); //true
 
 //3. find()
-const firstElementSutisfyingTheCondition = num.find((el) => el % 3 === 0);
-console.log(firstElementSutisfyingTheCondition); //3
+const firstElementSatisfyingTheCondition = num.find((el) => el % 3 === 0);
+console.log(firstElementSatisfyingTheCondition); //3
