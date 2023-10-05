@@ -1,3 +1,1 @@
-javascript-concept
------------------------------------
-- Author: Subrato Sarkar
+# Various JavaScript Concepts
