@@ -1,0 +1,16 @@
+{
+  "name": "javascript-concept",
+  "version": "1.0.0",
+  "description": "Various JavaScript and TypeScript Concepts",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretty": "prettier --write \"**/*.js\""
+  },
+  "author": "Subrato Sarkar",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "prettier": "2.8.7"
+  }
+}

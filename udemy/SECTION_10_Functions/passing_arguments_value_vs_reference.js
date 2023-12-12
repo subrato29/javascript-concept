@@ -1,23 +1,23 @@
-const flight = 'LH123';
+const flight = 'LH123'
 const jonas = {
-    name: 'Jonas S',
-    passpost: 1234567
+  name: 'Jonas S',
+  passpost: 1234567,
 }
 
 const checkIn = function (flightNum, passanger) {
-    flightNum = 'LH000';
-    passanger.name = 'Mr. ' + passanger.name;
+  flightNum = 'LH000'
+  passanger.name = 'Mr. ' + passanger.name
 
-    if (passanger.passpost == 1234567) {
-        alert ('Passport verified');
-    } else {
-        alert ('Passport not verified');
-    }
+  if (passanger.passpost == 1234567) {
+    alert('Passport verified')
+  } else {
+    alert('Passport not verified')
+  }
 }
 
-checkIn (flight, jonas);
-console.log (flight);
-console.log (jonas);
+checkIn(flight, jonas)
+console.log(flight)
+console.log(jonas)
 /**
  * o/p
  * LH123 // value did not change because 'flight' variable is primitive
@@ -28,11 +28,11 @@ passpost: 1234567
  */
 
 const newPassport = function (person) {
-    person.passpost = Math.trunc (Math.random() * 10000000);
+  person.passpost = Math.trunc(Math.random() * 10000000)
 }
 
-newPassport (jonas);
-checkIn (flight, jonas);
+newPassport(jonas)
+checkIn(flight, jonas)
 
 /**
  * JS does not have passing by reference, only have passing by value. Though we pass a reference to a

@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-const weekdays = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+const weekdays = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun']
 const openingHours = {
   [weekdays[3]]: {
     open: 12,
@@ -14,7 +14,7 @@ const openingHours = {
     open: 0, // Open 24 hours
     close: 24,
   },
-};
+}
 
 const restaurant = {
   name: 'Classico Italiano',
@@ -27,23 +27,23 @@ const restaurant = {
   openingHours,
 
   order(starterIndex, mainIndex) {
-    return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
+    return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]]
   },
 
   orderDelivery({ starterIndex = 1, mainIndex = 0, time = '20:00', address }) {
     console.log(
       `Order received! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered to ${address} at ${time}`
-    );
+    )
   },
 
   orderPasta(ing1, ing2, ing3) {
     console.log(
       `Here is your declicious pasta with ${ing1}, ${ing2} and ${ing3}`
-    );
+    )
   },
 
   orderPizza(mainIngredient, ...otherIngredients) {
-    console.log(mainIngredient);
-    console.log(otherIngredients);
+    console.log(mainIngredient)
+    console.log(otherIngredients)
   },
-};
+}

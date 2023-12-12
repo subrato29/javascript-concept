@@ -1,1 +1,1 @@
-console.log (typeof (50));
+console.log(typeof 50)

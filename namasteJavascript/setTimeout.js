@@ -1,17 +1,17 @@
 //Trust issues of setTimeout()
 
-console.log('start');
+console.log('start')
 
 setTimeout(() => {
-    console.log('setTimeout');
+  console.log('setTimeout')
 }, 5000)
 
 console.log('end')
 
-let start = new Date().getTime();
-let end = start;
-while(end < start + 10000) {
-    end = new Date().getTime();
+let start = new Date().getTime()
+let end = start
+while (end < start + 10000) {
+  end = new Date().getTime()
 }
 
 console.log('While loop ended')

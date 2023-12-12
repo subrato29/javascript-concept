@@ -1,7 +1,7 @@
 /**
- * A closure is the combination of a function bundled together (enclosed) with references to its 
- * surrounding state (the lexical environment). In other words, a closure gives you access to an 
- * outer function’s scope from an inner function. In JavaScript, closures are created every time 
+ * A closure is the combination of a function bundled together (enclosed) with references to its
+ * surrounding state (the lexical environment). In other words, a closure gives you access to an
+ * outer function’s scope from an inner function. In JavaScript, closures are created every time
  * a function is created, at function creation time.
  */
 
@@ -13,22 +13,22 @@
 /**
  * A closure has higher priority over scope chain
  */
- const secureBooking = () => {
-    let counter = 0;
-    return () => {
-        counter++;
-        console.log (counter + ' passanger');
-    }
+const secureBooking = () => {
+  let counter = 0
+  return () => {
+    counter++
+    console.log(counter + ' passanger')
+  }
 }
 
-const booker = secureBooking ();
+const booker = secureBooking()
 
-booker (); //1
-booker (); //2
-booker (); //3
+booker() //1
+booker() //2
+booker() //3
 
-console.log ('===============');
+console.log('===============')
 
-secureBooking ()(); //1
-secureBooking ()(); //1
-secureBooking ()(); //1
+secureBooking()() //1
+secureBooking()() //1
+secureBooking()() //1

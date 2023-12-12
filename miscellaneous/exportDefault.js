@@ -1,8 +1,8 @@
 /**
  * What is export default in JavaScript ?
- * The export statement is used when creating JavaScript modules to export objects, functions, variables 
- * from the module so they can be used by other programs with the help of the import statements. 
- * There are two types of exports. One is Named Exports and other is Default Exports. 
+ * The export statement is used when creating JavaScript modules to export objects, functions, variables
+ * from the module so they can be used by other programs with the help of the import statements.
+ * There are two types of exports. One is Named Exports and other is Default Exports.
  */
 
 /**

@@ -3,5 +3,5 @@
 //callback hell is called pyramid of doom
 
 setTimeout(() => {
-    console.log('JavaScript')
+  console.log('JavaScript')
 }, 1000)
