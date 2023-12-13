@@ -1,1 +1,1 @@
-# Various JavaScript Concepts
+# JavaScript and TypeScript Concepts
