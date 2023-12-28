@@ -39,3 +39,11 @@ enum Status {
 }
 
 console.log(Status)
+
+enum Machine {
+  APPLE,
+  WINDOWS,
+  LINUX,
+}
+
+console.log(Machine[2])
