@@ -14,9 +14,9 @@ isActive = false
 let city: null
 let country: undefined
 
-let value: any = 'easy'
-value = true
-value = 7
+let val: any = 'easy'
+val = true
+val = 7
 
 function print(): void {
   console.log('hello world')
